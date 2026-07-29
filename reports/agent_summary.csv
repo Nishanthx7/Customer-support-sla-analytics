@@ -1,0 +1,9 @@
+agent_name,total_tickets,active_backlog,completed_tickets,avg_first_response_minutes,avg_resolution_hours,avg_survey_score,avg_agent_interactions,response_sla_violations,resolution_sla_violations,backlog_rate_pct,response_sla_compliance_pct,completed_resolution_sla_compliance_pct
+Adolpho Messingham,197,41,156,19.71,33.15,3.46,4.8,28,70,20.81,85.42,81.41
+Bernard Beckley,359,61,298,21.51,33.55,3.41,6.05,37,122,16.99,89.66,79.53
+Connor Danielovitch,347,74,273,24.18,35.68,4.07,5.03,40,133,21.33,88.41,78.39
+Heather Urry,177,22,155,45.44,26.18,3.37,5.32,24,42,12.43,86.44,87.1
+Kristos Westoll,333,53,280,23.12,35.65,3.23,5.68,43,113,15.92,86.89,78.57
+Michele Whyatt,186,32,154,28.18,32.56,3.4,6.45,16,60,17.2,91.4,81.82
+Nicola Wane,367,73,294,33.12,34.4,3.36,4.95,42,133,19.89,88.4,79.59
+Sheela Cutten,364,62,302,25.66,31.37,3.65,5.57,49,111,17.03,86.46,83.77

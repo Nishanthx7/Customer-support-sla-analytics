@@ -1,0 +1,8 @@
+topic,total_tickets,active_backlog,completed_tickets,avg_first_response_minutes,avg_resolution_hours,avg_survey_score,avg_agent_interactions,response_sla_violations,resolution_sla_violations,backlog_rate_pct,response_sla_compliance_pct,completed_resolution_sla_compliance_pct
+Bug report,225,33,192,28.12,29.91,3.55,6.0,24,68,14.67,89.33,81.77
+Feature request,417,65,352,22.19,34.21,3.54,5.52,60,134,15.59,85.47,80.4
+Other,203,44,159,30.82,31.47,3.49,6.64,26,70,21.67,87.0,83.65
+Pricing and licensing,525,89,436,26.79,36.67,3.49,5.22,57,186,16.95,89.06,77.75
+Product setup,630,126,504,24.96,30.77,3.4,5.54,73,215,20.0,88.28,82.34
+Purchasing and invoicing,264,45,219,33.79,33.44,3.75,4.47,28,83,17.05,89.35,82.65
+Training request,66,16,50,29.49,38.89,3.46,5.09,11,28,24.24,83.08,76.0

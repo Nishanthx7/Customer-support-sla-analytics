@@ -1,0 +1,34 @@
+[
+  {
+    "finding": "Highest-volume support topic",
+    "value": "Product setup (630 tickets)"
+  },
+  {
+    "finding": "Highest backlog-rate topic",
+    "value": "Training request (24.24%)"
+  },
+  {
+    "finding": "Lowest completed resolution-SLA compliance by topic",
+    "value": "Training request (76.00%)"
+  },
+  {
+    "finding": "Lowest response-SLA compliance by source",
+    "value": "Phone (75.82%)"
+  },
+  {
+    "finding": "Agent with largest active backlog",
+    "value": "Connor Danielovitch (74 tickets)"
+  },
+  {
+    "finding": "Highest completed resolution-SLA compliance by agent",
+    "value": "Heather Urry (87.10%)"
+  },
+  {
+    "finding": "Lowest completed resolution-SLA compliance by product group",
+    "value": "Custom software development (78.71%)"
+  },
+  {
+    "finding": "Monthly completed resolution-SLA trend",
+    "value": "91.44% in 2023-01 to 72.41% in 2023-12"
+  }
+]

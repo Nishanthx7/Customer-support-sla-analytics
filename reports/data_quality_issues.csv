@@ -1,0 +1,35 @@
+ticket_id,status,created_at,first_response_at,resolution_at,agent_interactions,source_response_sla_status,calculated_response_sla_status,source_resolution_sla_status,calculated_resolution_sla_status,invalid_response_timestamp,response_sla_label_mismatch,resolution_sla_label_mismatch,data_quality_issue
+1288,Closed,2023-02-01 19:56:22.000000,2023-02-01 01:10:53.759000,2023-02-03 02:35:00.869000,2.0,Within SLA,Invalid timestamp,Within SLA,Within SLA,True,False,False,First response precedes ticket creation
+1411,Open,2023-02-18 01:40:47.000000,,,,SLA Violated,No response,SLA Violated,SLA Violated,False,False,False,Missing first response timestamp
+1412,Resolved,2023-02-18 01:11:10.000000,2023-02-18 01:56:03.345000,2023-02-23 10:16:46.250000,2.0,SLA Violated,Within SLA,SLA Violated,SLA Violated,False,True,False,Source response SLA flag differs from timestamp calculation
+1413,Closed,2023-02-18 10:17:59.000000,2023-02-18 11:00:21.697000,2023-02-20 15:00:00.082000,1.0,SLA Violated,Within SLA,SLA Violated,SLA Violated,False,True,False,Source response SLA flag differs from timestamp calculation
+1420,Closed,2023-02-19 00:43:57.000000,2023-02-19 01:01:40.481000,2023-02-20 06:53:05.299000,10.0,SLA Violated,Within SLA,Within SLA,Within SLA,False,True,False,Source response SLA flag differs from timestamp calculation
+1421,Closed,2023-02-19 22:39:31.000000,2023-02-19 23:27:31.804000,2023-02-21 00:56:25.003000,9.0,SLA Violated,Within SLA,Within SLA,Within SLA,False,True,False,Source response SLA flag differs from timestamp calculation
+1423,Open,2023-02-19 07:26:50.000000,,,,SLA Violated,No response,SLA Violated,SLA Violated,False,False,False,Missing first response timestamp
+1424,Closed,2023-02-19 00:21:43.000000,2023-02-19 00:22:15.239000,2023-02-20 02:58:47.066000,2.0,SLA Violated,Within SLA,Within SLA,Within SLA,False,True,False,Source response SLA flag differs from timestamp calculation
+1425,Closed,2023-02-19 04:46:26.000000,2023-02-19 04:50:09.619000,2023-02-20 10:42:06.971000,8.0,SLA Violated,Within SLA,Within SLA,Within SLA,False,True,False,Source response SLA flag differs from timestamp calculation
+1426,Resolved,2023-02-20 03:12:04.000000,2023-02-20 03:12:05.084000,2023-02-21 15:04:01.664000,6.0,SLA Violated,Within SLA,Within SLA,Within SLA,False,True,False,Source response SLA flag differs from timestamp calculation
+1427,Resolved,2023-02-20 06:04:53.000000,2023-02-20 06:39:17.618000,2023-02-21 23:56:36.419000,2.0,SLA Violated,Within SLA,Within SLA,Within SLA,False,True,False,Source response SLA flag differs from timestamp calculation
+1428,Resolved,2023-02-20 08:22:32.000000,2023-02-20 09:19:06.088000,2023-02-21 19:47:21.972000,3.0,SLA Violated,Within SLA,Within SLA,Within SLA,False,True,False,Source response SLA flag differs from timestamp calculation
+1429,Resolved,2023-02-20 17:13:46.000000,2023-02-20 18:04:32.387000,2023-02-21 18:04:01.261000,2.0,SLA Violated,Within SLA,Within SLA,Within SLA,False,True,False,Source response SLA flag differs from timestamp calculation
+1430,Closed,2023-02-20 21:22:01.000000,2023-02-20 21:55:55.617000,2023-02-20 23:14:03.604000,1.0,SLA Violated,Within SLA,Within SLA,Within SLA,False,True,False,Source response SLA flag differs from timestamp calculation
+1432,Resolved,2023-02-20 02:07:52.000000,2023-02-20 02:46:20.425000,2023-02-20 17:37:22.794000,1.0,SLA Violated,Within SLA,Within SLA,Within SLA,False,True,False,Source response SLA flag differs from timestamp calculation
+1433,Closed,2023-02-20 21:27:54.000000,2023-02-20 21:29:46.157000,2023-02-21 21:00:53.035000,2.0,SLA Violated,Within SLA,Within SLA,Within SLA,False,True,False,Source response SLA flag differs from timestamp calculation
+1434,In progress,2023-02-20 11:10:43.000000,2023-02-20 11:14:30.954000,,2.0,SLA Violated,Within SLA,SLA Violated,SLA Violated,False,True,False,Source response SLA flag differs from timestamp calculation
+1586,Open,2023-03-13 17:00:43.000000,,,,SLA Violated,No response,SLA Violated,SLA Violated,False,False,False,Missing first response timestamp
+1770,Open,2023-04-05 16:27:41.000000,,,,SLA Violated,No response,SLA Violated,SLA Violated,False,False,False,Missing first response timestamp
+1932,Open,2023-04-26 11:36:51.000000,,,,SLA Violated,No response,SLA Violated,SLA Violated,False,False,False,Missing first response timestamp
+2135,Resolved,2023-05-18 05:54:00.000000,2023-05-17 20:19:49.433000,2023-05-23 16:55:35.103000,1.0,Within SLA,Invalid timestamp,SLA Violated,SLA Violated,True,False,False,First response precedes ticket creation
+2917,Open,2023-08-21 03:01:38.000000,,,,SLA Violated,No response,SLA Violated,SLA Violated,False,False,False,Missing first response timestamp
+3740,Open,2023-12-01 05:04:05.000000,,,,SLA Violated,No response,SLA Violated,SLA Violated,False,False,False,Missing first response timestamp
+3741,Open,2023-12-01 22:07:45.000000,,,,SLA Violated,No response,SLA Violated,SLA Violated,False,False,False,Missing first response timestamp
+3787,Open,2023-12-06 03:52:38.000000,,,,SLA Violated,No response,SLA Violated,SLA Violated,False,False,False,Missing first response timestamp
+3793,Open,2023-12-07 20:45:23.000000,,,,SLA Violated,No response,SLA Violated,SLA Violated,False,False,False,Missing first response timestamp
+3818,Open,2023-12-10 22:40:41.000000,,,,SLA Violated,No response,SLA Violated,SLA Violated,False,False,False,Missing first response timestamp
+3830,Open,2023-12-11 01:00:06.000000,,,,SLA Violated,No response,SLA Violated,SLA Violated,False,False,False,Missing first response timestamp
+3862,Open,2023-12-15 10:06:09.000000,,,,SLA Violated,No response,SLA Violated,SLA Violated,False,False,False,Missing first response timestamp
+3870,Open,2023-12-16 06:13:16.000000,,,,SLA Violated,No response,SLA Violated,SLA Violated,False,False,False,Missing first response timestamp
+3903,Open,2023-12-19 08:47:16.000000,,,,SLA Violated,No response,SLA Violated,SLA Violated,False,False,False,Missing first response timestamp
+3907,Open,2023-12-20 22:08:52.000000,,,,SLA Violated,No response,SLA Violated,SLA Violated,False,False,False,Missing first response timestamp
+3914,Open,2023-12-21 20:19:02.000000,,,,SLA Violated,No response,SLA Violated,SLA Violated,False,False,False,Missing first response timestamp
+3970,Open,2023-12-27 00:37:16.000000,,,,SLA Violated,No response,SLA Violated,SLA Violated,False,False,False,Missing first response timestamp

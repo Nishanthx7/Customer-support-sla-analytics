@@ -1,0 +1,86 @@
+Total Tickets = COUNTROWS(FactSupportTickets)
+
+Completed Tickets =
+CALCULATE(
+    [Total Tickets],
+    FactSupportTickets[status_group] = "Completed"
+)
+
+Active Backlog =
+CALCULATE(
+    [Total Tickets],
+    FactSupportTickets[is_active_backlog] = TRUE()
+)
+
+Backlog Rate = DIVIDE([Active Backlog], [Total Tickets])
+
+Average First Response Minutes =
+AVERAGE(FactSupportTickets[first_response_minutes])
+
+Median First Response Minutes =
+MEDIAN(FactSupportTickets[first_response_minutes])
+
+Average Resolution Hours =
+AVERAGE(FactSupportTickets[resolution_hours])
+
+Median Resolution Hours =
+MEDIAN(FactSupportTickets[resolution_hours])
+
+Valid Response SLA Tickets =
+CALCULATE(
+    [Total Tickets],
+    FactSupportTickets[calculated_response_sla_status]
+        IN {"Within SLA", "SLA Violated"}
+)
+
+Response SLA Met =
+CALCULATE(
+    [Total Tickets],
+    FactSupportTickets[calculated_response_sla_status] = "Within SLA"
+)
+
+Response SLA Compliance =
+DIVIDE([Response SLA Met], [Valid Response SLA Tickets])
+
+Completed Resolution SLA Met =
+CALCULATE(
+    [Total Tickets],
+    FactSupportTickets[status_group] = "Completed",
+    FactSupportTickets[calculated_resolution_sla_status] = "Within SLA"
+)
+
+Completed Resolution SLA Compliance =
+DIVIDE([Completed Resolution SLA Met], [Completed Tickets])
+
+Average Survey Score =
+AVERAGE(FactSupportTickets[survey_score])
+
+Average Agent Interactions =
+AVERAGE(FactSupportTickets[agent_interactions])
+
+Active Overdue Tickets =
+CALCULATE(
+    [Total Tickets],
+    FactSupportTickets[active_overdue] = TRUE()
+)
+
+Tickets Previous Month =
+CALCULATE(
+    [Total Tickets],
+    DATEADD(DimDate[date], -1, MONTH)
+)
+
+Ticket Volume MoM % =
+DIVIDE(
+    [Total Tickets] - [Tickets Previous Month],
+    [Tickets Previous Month]
+)
+
+Agent Workload Rank =
+RANKX(
+    ALLSELECTED(DimAgent[agent_name]),
+    [Total Tickets],
+    ,
+    DESC,
+    DENSE
+)

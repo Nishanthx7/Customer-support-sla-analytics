@@ -1,0 +1,41 @@
+let
+    Source = Csv.Document(
+        File.Contents("PATH_TO_PROJECT\data\processed\fact_support_tickets.csv"),
+        [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]
+    ),
+    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    ChangedTypes = Table.TransformColumnTypes(
+        PromotedHeaders,
+        {
+            {"ticket_id", type text},
+            {"status", type text},
+            {"status_group", type text},
+            {"priority", type text},
+            {"source", type text},
+            {"topic", type text},
+            {"product_group", type text},
+            {"support_level", type text},
+            {"agent_group", type text},
+            {"agent_name", type text},
+            {"agent_id", type text},
+            {"country", type text},
+            {"latitude", type number},
+            {"longitude", type number},
+            {"created_at", type datetime},
+            {"created_date", type date},
+            {"year_month", type text},
+            {"response_target_minutes", type number},
+            {"first_response_minutes", type number},
+            {"resolution_target_hours", type number},
+            {"resolution_hours", type number},
+            {"closure_hours", type number},
+            {"agent_interactions", Int64.Type},
+            {"survey_score", Int64.Type},
+            {"is_active_backlog", type logical},
+            {"is_completed", type logical},
+            {"active_overdue", type logical},
+            {"backlog_age_days", type number}
+        }
+    )
+in
+    ChangedTypes
